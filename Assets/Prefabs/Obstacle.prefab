@@ -107,7 +107,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -189,6 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle
   minSize: 1
   maxSize: 2
-  minSpeed: 100
-  maxSpeed: 200
-  maxSpinSpeed: 20
+  minSpeed: 200
+  maxSpeed: 500
+  maxSpinSpeed: 50
+  bounceEffectPrefab: {fileID: 5743799671208084231, guid: d1e454962ad37d94eab8e0fd6442e147, type: 3}
